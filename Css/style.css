@@ -1,0 +1,133 @@
+body .Total {
+    background-image: url("https://images.hdqwalls.com/download/abstract-neon-digital-art-1o-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 -1vw -1vw;
+}
+.Total header ul {
+    width: 100%;
+    overflow: hidden;
+    height: 6vw;
+    margin-top: -1vw;
+    list-style-type: none;
+    font-size: 1.5vw;
+    position: fixed;
+    background-color: black;
+    top: 0;
+}
+.Total header li {
+    float: left;
+}
+.Total header li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 2.5vw 3vw 1vw 1.5vw;
+    margin: 0 1vw;
+    background-color: rgba(0, 0, 0, 0.584);
+    width: 20%;
+    text-decoration: none;
+}
+.Total header a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0.1vw 0.1vw 0.3vw 0.25vw white;
+}
+.Total #welcome .welcome-content {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.875vw 1.875vw 1.875vw 3.75vw;
+}
+.Total #welcome:hover {
+    border-color: white;
+    box-shadow: 0.1vw 0.1vw 0.5vw 0.5vw white;
+}
+.Total #welcome img {
+    width: 20vw;height: 25vw;
+    border-radius: 50%;
+    margin: 5vw 6.25vw 6.25vw 0 ;
+    border: 0.375vw black solid;
+}
+.Total #welcome {
+    margin: 1.25vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.584);
+    border-radius: 31.25vw;
+}
+.Total .Projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10vw;
+    font-size: 1.5vw;
+}
+.Total .Projects .project1, .project2, .project3 {
+    height: 25%;width: 30%;
+    background-color: rgba(0, 0, 0, 0.584);
+    color: white;
+    border-radius: 3.75vw;
+    padding: 0 0.625vw;
+}
+.Total .Projects .project1:hover, .project2:hover, .project3:hover {
+    border-color: white;
+    box-shadow: 0.1vw 0.1vw 0.5vw 0.5vw white;
+}
+.Total .Projects .project1 img {
+    height: 25%;width: 50%;
+    padding: 0.625vw 25%;
+    border-radius: 50%;
+}
+.Total .Projects .project2 img {
+    height: 25%;width: 50%;
+    padding: 0.625vw 25%;
+    border-radius: 50%;
+}
+.Total .Projects .project3 img {
+    height: 25%;width: 50%;
+    padding: 0.625vw 25%;
+    border-radius: 50%;
+}
+.Total .Skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Total .Skills h4 {
+    padding-left: 1.25vw;
+}
+.Total .Skills div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.584);
+    color: white;
+    border-radius: 3.75vw;
+    font-size: 2.5vw;
+    margin: 1.25vw;
+    margin-top: 3.75vw;
+}
+.Total .Skills div:hover {
+    border-color: white;
+    box-shadow: 0.1vw 0.1vw 0.5vw 0.5vw white;
+}
+.Total footer {
+    background-color: rgba(0, 0, 0, 0.584);
+    color: white;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -1vw -1vw;
+    margin-top: 1vw;
+    font-size: 1.25vw;
+}
+.Total footer div {
+    width: 30%;
+    padding-left: 10vw;
+}
+
